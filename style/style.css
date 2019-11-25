@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#00B4DB, #0083B0);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+
+
+.dots{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
