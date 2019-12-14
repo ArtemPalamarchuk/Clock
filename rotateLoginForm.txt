@@ -1,0 +1,22 @@
+<script>
+
+    let str = "";
+    let loginForm = document.getElementsByClassName('login-form')[0];
+
+    document.addEventListener('keypress', function (e) {
+        const secret = "123";
+        const keyName = event.key;
+        str+=keyName;
+
+        function rotateY() {
+            loginForm.style.transform = 'rotateX(180deg)'
+        }
+
+        if(secret === str){
+            loginForm.style.transform = 'rotateY(180deg)';
+            setTimeout(rotateY, 1000);
+        }
+
+    })
+
+</script>
